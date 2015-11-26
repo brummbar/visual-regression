@@ -1,0 +1,31 @@
+{
+  "name": "visual-regression",
+  "version": "1.0.0",
+  "description": "Visual Regression testing with Webdrivercss.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brummbar/visual-regression.git"
+  },
+  "keywords": [
+    "webdrivercss",
+    "webdriverio",
+    "visual-regression"
+  ],
+  "author": "Francesco Sardara",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brummbar/visual-regression/issues"
+  },
+  "homepage": "https://github.com/brummbar/visual-regression#readme",
+  "dependencies": {
+    "webdrivercss": "^2.0.0-beta-rc1",
+    "webdriverio": "^2.0.0"
+  }
+}
