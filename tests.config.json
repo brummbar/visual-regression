@@ -1,0 +1,21 @@
+{
+  "capabilities": {
+    "browserName": "firefox"
+  },
+  "breakpoints": [
+    {
+      "name": "desktop",
+      "screenWidth": [1280]
+    },
+    {
+      "name": "mobile",
+      "screenWidth": [320]
+    }
+  ],
+  "tests": [
+    {
+      "name": "DuckDuckGo",
+      "path": "https://duckduckgo.com/"
+    }
+  ]
+}
