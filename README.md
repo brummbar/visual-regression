@@ -13,3 +13,11 @@ $ brew install graphicsmagick
 # Ubuntu
 $ sudo apt-get install graphicsmagick
 ```
+- Download [Selenium Server standalone](http://www.seleniumhq.org/download/) and run it:
+```sh
+$ java -jar selenium-server-standalone-2.48.2.jar &> /dev/null &
+```
+- Clone the repo. Open a shell inside the folder and run the tests:
+```sh
+$ mocha
+```
