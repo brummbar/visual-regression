@@ -47,7 +47,9 @@ describe('frontend testing', function () {
       desiredCapabilities: config.capabilities
     });
     client.init(done);
-    webdrivercss.init(client);
+    webdrivercss.init(client, {
+      misMatchTolerance: 0.01
+    });
   });
 
   config.tests.forEach(function (test) {
