@@ -17,7 +17,11 @@ $ sudo apt-get install graphicsmagick
 ```sh
 $ java -jar selenium-server-standalone-2.48.2.jar &> /dev/null &
 ```
-- Clone the repo. Open a shell inside the folder and run the tests:
+- Clone this repo. Open a shell inside the folder and install dependencies:
+```sh
+$ npm install
+```
+- Run the tests:
 ```sh
 $ mocha
 ```
